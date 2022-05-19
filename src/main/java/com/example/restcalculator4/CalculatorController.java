@@ -11,5 +11,5 @@ public class CalculatorController {
     public int sum (@RequestParam int a, @RequestParam int b) { //suche a über Request-Parameter
         return a + b;
     }
-    //localhost:8080/sum?a=12354&b=3452
+    //localhost:8080/sum?a=12354&b=3452 damit es funktioniert
 }
